@@ -1,0 +1,8 @@
+<section>
+    <app-button (buttonClick)="handleClick()" [text]="'Handle'"></app-button>
+    @if (home) {
+        <p>{{ title }} works!</p>
+    } @else {
+        <p>{{ title }} does not work!</p>
+    }
+</section>

@@ -1,0 +1,20 @@
+<nav>
+    <ul>
+        <li>
+            <a routerLink="/users">Users</a>
+        </li>
+        <li>
+            <a routerLink="/">Home</a>
+        </li>
+    </ul>
+</nav>
+
+@defer (on viewport) {
+    <h1>Hola Angular</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perferendis ipsum ipsam nemo quibusdam ex consequuntur quia magni, voluptas non. Excepturi tenetur quaerat autem inventore impedit ratione ipsam, dolorum illum!</p>
+} @placeholder {
+    <p>futuros comentarios</p>
+} @loading {
+    <p>Cargando...</p>
+}
+<router-outlet />
